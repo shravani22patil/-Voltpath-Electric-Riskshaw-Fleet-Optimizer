@@ -4,6 +4,8 @@
 
 A portfolio-grade analytics product simulating how EV fleet operators, infrastructure startups, and city mobility planners can reduce downtime and optimize charging station placement for electric rickshaw fleets in Indian cities.
 
+**Live Demo:** [Voltpath](https://akssyhpky6mnuymtwsce7c.streamlit.app/)
+
 ---
 
 ## 📸 Screenshots
