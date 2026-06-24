@@ -6,7 +6,7 @@ shapely==2.0.3
 folium==0.16.0
 streamlit-folium==0.18.0
 plotly==5.20.0
-scikit-learn==1.4.1
+scikit-learn
 requests==2.31.0
 python-dotenv==1.0.1
 sqlalchemy==2.0.28
