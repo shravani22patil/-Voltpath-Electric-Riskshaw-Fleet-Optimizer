@@ -123,7 +123,7 @@ def render(fleet: pd.DataFrame, zones: pd.DataFrame) -> None:
             return ""
 
     st.dataframe(
-        risk_table.style.applymap(highlight_risk, subset=["Risk Score","Accessibility"]),
+        risk_table.style.map(highlight_risk, subset=["Risk Score","Accessibility"]),
         use_container_width=True,
         hide_index=True,
     )
