@@ -120,7 +120,10 @@ def render(fleet: pd.DataFrame, zones: pd.DataFrame, chargers: pd.DataFrame, hub
         return ""
 
     st.dataframe(
-        disp.style.applymap(color_risk, subset=["Downtime Risk Score"] if "Downtime Risk Score" in disp.columns else []),
-        use_container_width=True,
-        height=340,
-    )
+       disp.style.map(
+          color_risk,
+          subset=["Downtime Risk Score"] if "Downtime Risk Score" in disp.columns else []
+      ),
+      use_container_width=True,
+      height=340,
+  )
